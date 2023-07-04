@@ -7,6 +7,7 @@ from .named import Named
 from .randomcard import Random
 from .search import Search
 from .arena_id import ArenaId
+from .randomsearch import RandomSearch
 
 __all__ = [
     'Autocomplete',
@@ -17,5 +18,6 @@ __all__ = [
     'Named',
     'Random',
     'Search',
-    'ArenaId'
+    'ArenaId',
+    'RandomSearch'
 ]
