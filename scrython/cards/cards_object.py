@@ -187,7 +187,9 @@ class CardsObject(FoundationObject):
             'augment': lambda num: self.scryfallJson['image_uris'],
             'host': lambda num: self.scryfallJson['image_uris'],
             'adventure': lambda num: self.scryfallJson['image_uris'],
-            'modal_dfc': lambda num: self.scryfallJson['card_faces'][num]['image_uris']
+            'modal_dfc': lambda num: self.scryfallJson['card_faces'][num]['image_uris'],
+            'mutate': lambda num: self.scryfallJson['image_uris'],
+            'prototype': lambda num: self.scryfallJson['image_uris']
         }
 
         image_types = {
